@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/js/data.js" defer></script>
+    <script src="assets/js/init.js" defer></script>
+    <script src="assets/js/cookies.js" defer></script>
+    <title>Document</title>
+</head>
+<body onload="start()">
+    <main>
+        <article>
+            <section id="gamePicker">
+                <h1>Mario Game Picker</h1>
+                <button onclick="restart()">Restart:</button>
+                <form id="marioForm" class="verticalLayout"></form>
+                <div id="finalOutput">
+                    <div id="output" class="scrollUp"></div>
+                    <div id="userFeedback" class="scrollUp verticalLayout"></div>
+                </div>
+            </section>
+            <aside id="previousBox">
+                <h2>Previous selected item:</h2>
+                <div id="previousResult">
+                    <p>None.</p>
+                </div> 
+            </aside>
+        </article>
+    </main>
+</body>
+</html>
